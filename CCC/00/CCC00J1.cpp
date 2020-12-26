@@ -12,7 +12,8 @@ using str = string;
 
 int s, t;
 int dates[6][7];
-// whitespaces are incorrect for some reason but practically speaking i think its still ok
+// whitespaces are incorrect for some reason but practically 
+// speaking i think its still ok
 int main()
 {
     ios_base::sync_with_stdio(0);
