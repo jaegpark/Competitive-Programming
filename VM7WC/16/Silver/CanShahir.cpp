@@ -16,11 +16,10 @@ using str = string;
 
 class Graph
 {
-public:
 
     vector<vector<int>> Edge;
     vector<bool> visited;
-
+public:
     Graph(int V)
     {
         Edge.resize(V+1);
