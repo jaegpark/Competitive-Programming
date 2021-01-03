@@ -35,7 +35,7 @@ using str = string;
 #define pf push_front
 #define mp make_pair
 
-int main()
+int main(void)
 {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
