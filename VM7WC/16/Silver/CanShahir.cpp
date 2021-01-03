@@ -16,7 +16,6 @@ using str = string;
 
 class Graph
 {
-
     vector<vector<int>> Edge;
     vector<bool> visited;
 public:
@@ -59,7 +58,7 @@ public:
     }
 };
 
-int main()
+int main(void)
 {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
