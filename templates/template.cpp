@@ -22,6 +22,8 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <cstring>
+#include <sstream>
+#include <iomanip>
 
 
 using namespace std;
