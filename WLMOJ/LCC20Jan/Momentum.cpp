@@ -26,19 +26,28 @@
 using namespace std;
 
 using ll = long long;
-using ld = long double;
-using db = double; 
-using str = string;
 
-#define pb push_back
-#define pf push_front
-
-int main (){
+int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    int n;
-    cin>>n;
-
-    vector<int> v;
-
-}   
+    
+    ll n; cin >> n;
+    vector<ll> in(n);
+    for (ll i = 0; i < n; i++) {
+        cin >> in[i];
+        //in[i] = abs(in[i]);
+    }
+    
+    sort(in.begin(), in.end());
+    
+    vector<ll> dp(n);
+    dp[0]=0;
+    for (ll i = 1; i < n; i++) {
+        if (in[i] == in[i-1]) {
+            dp[i] = dp[i-1];
+        } else {
+            dp[i] = dp[i-1]+i;
+        }
+    }
+    cout << dp[n-1];
+}
