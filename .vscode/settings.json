@@ -72,5 +72,11 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "__split_buffer": "cpp"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
     }
 }
