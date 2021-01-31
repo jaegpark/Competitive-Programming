@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dmojzerothatout;
 
 import java.util.Scanner;
 import java.util.Stack;

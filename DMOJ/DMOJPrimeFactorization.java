@@ -1,4 +1,3 @@
-package dmojprimefactorization;
 
 import java.util.Scanner;
 import java.util.ArrayList;
